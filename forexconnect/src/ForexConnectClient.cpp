@@ -96,7 +96,7 @@ std::ostream& pyforexconnect::operator<<(std::ostream& out, TradeInfo const& ti)
 {
     out << "<'instrument': " << ti.mInstrument
 	<< ", 'trade_id': " << ti.mTradeID
-	<< ", 'but_sell': " << ti.mBuySell
+	<< ", 'buy_sell': " << ti.mBuySell
 	<< ", 'open_rate': " << ti.mOpenRate
 	<< ", 'amount': " << ti.mAmount
 	<< ", 'open_date': " << ti.mOpenDate
